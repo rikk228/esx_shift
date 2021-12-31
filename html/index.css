@@ -1,0 +1,136 @@
+body {
+    background: none !important;
+}
+
+#root {
+    font-size: 20px;
+    padding: 25px;
+    color: black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(32, 32, 32);
+    height: 600px;
+    width: 1000px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    overflow-x: auto;
+    overflow-y: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+th {
+    color:white;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button {
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    border: none;
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+button:active {
+    background-color: rgb(158, 158, 158);
+}
+
+#startShift {
+    background-color: rgb(0, 255, 0);
+}
+
+#startShift:active {
+    background-color: rgb(0, 196, 0);
+}
+
+#endShift {
+    background-color: rgb(255, 0, 0);
+}
+
+#endShift:active {
+    background-color: rgb(196, 0, 0);
+}
+
+#shiftResult {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#shiftResultClose {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+#closeui {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+input {
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+#deleteShift {
+    max-width: 120px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#main-row  {
+    background-color: rgb(255, 145, 0);
+}
+
+#main-row > th {
+    color: rgb(0, 0, 0) !important;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    font-size: 15px;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.nodisplay {
+    display: none;
+}
